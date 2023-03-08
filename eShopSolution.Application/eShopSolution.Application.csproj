@@ -4,9 +4,14 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
 
+	<ItemGroup>
+		<FrameworkReference Include = "Microsoft.AspNetCore.App"/>
+	</ItemGroup>
+
   <ItemGroup>
     <ProjectReference Include="..\eShopSolution.Data\eShopSolution.Data.csproj" />
-    <ProjectReference Include="..\eshopSolution.Utilities\eshopSolution.Utilities.csproj" />
+    <ProjectReference Include="..\eshopSolution.Utilities\eShopSolution.Utilities.csproj" />
+    <ProjectReference Include="..\eshopSolution.ViewModels\eShopSolution.ViewModels.csproj" />
   </ItemGroup>
 
 </Project>

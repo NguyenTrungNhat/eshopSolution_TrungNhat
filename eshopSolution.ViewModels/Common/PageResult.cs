@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace eShopSolution.Application.Dtos
+namespace eshopSolution.ViewModels.Common
 {
     public class PageResult<T>
     {

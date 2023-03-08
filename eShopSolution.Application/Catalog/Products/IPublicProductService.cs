@@ -1,6 +1,6 @@
-﻿using eShopSolution.Application.Catalog.Products.Dtos;
-using eShopSolution.Application.Catalog.Products.Dtos.Public;
-using eShopSolution.Application.Dtos;
+﻿using eshopSolution.ViewModels.Catalog.Products;
+using eshopSolution.ViewModels.Catalog.Products.Public;
+using eshopSolution.ViewModels.Common;
 using System;
 using System.Collections.Generic;
 using System.Text;

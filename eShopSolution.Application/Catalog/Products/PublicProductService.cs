@@ -1,13 +1,13 @@
-﻿using eShopSolution.Application.Catalog.Products.Dtos;
-using eShopSolution.Application.Catalog.Products.Dtos.Public;
-using eShopSolution.Application.Dtos;
-using eShopSolution.Data.EF;
+﻿using eShopSolution.Data.EF;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Text;
 using System.Threading.Tasks;
 using System.Linq;
+using eshopSolution.ViewModels.Catalog.Products;
+using eshopSolution.ViewModels.Common;
+using eshopSolution.ViewModels.Catalog.Products.Public;
 
 namespace eShopSolution.Application.Catalog.Products
 {
@@ -62,5 +62,6 @@ namespace eShopSolution.Application.Catalog.Products
             };
             return pageResult;
         }
+
     }
 }
