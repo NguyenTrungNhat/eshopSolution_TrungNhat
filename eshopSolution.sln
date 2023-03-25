@@ -24,7 +24,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2.Domain", "2.Domain", "{FF
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3.Hosts", "3.Hosts", "{C3CC81CA-4BCB-4885-A791-7F5DBC60D9BD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "eShopSolution.BackendApi2", "eShopSolution.BackendApi2\eShopSolution.BackendApi2.csproj", "{8354A3FE-7DE6-44F3-B2BF-5C442C66F298}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "eShopSolution.BackendApi2", "eShopSolution.BackendApi2\eShopSolution.BackendApi2.csproj", "{8354A3FE-7DE6-44F3-B2BF-5C442C66F298}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "eshopSolution.AdminApp", "eshopSolution.AdminApp\eshopSolution.AdminApp.csproj", "{2D8AC9A3-826B-4D22-BE6C-1029E4E86971}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -56,6 +58,10 @@ Global
 		{8354A3FE-7DE6-44F3-B2BF-5C442C66F298}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8354A3FE-7DE6-44F3-B2BF-5C442C66F298}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8354A3FE-7DE6-44F3-B2BF-5C442C66F298}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2D8AC9A3-826B-4D22-BE6C-1029E4E86971}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2D8AC9A3-826B-4D22-BE6C-1029E4E86971}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2D8AC9A3-826B-4D22-BE6C-1029E4E86971}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2D8AC9A3-826B-4D22-BE6C-1029E4E86971}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -67,6 +73,7 @@ Global
 		{BEBD2FDE-D533-42C0-8A3C-62FC29EA685C} = {1AF37D2E-AE0C-43D1-9EDC-13E620780FF5}
 		{48855266-4C35-436C-89BE-43AEB889B914} = {1AF37D2E-AE0C-43D1-9EDC-13E620780FF5}
 		{8354A3FE-7DE6-44F3-B2BF-5C442C66F298} = {C3CC81CA-4BCB-4885-A791-7F5DBC60D9BD}
+		{2D8AC9A3-826B-4D22-BE6C-1029E4E86971} = {C3CC81CA-4BCB-4885-A791-7F5DBC60D9BD}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {6239E663-2E7C-4238-B295-7F9DC2159F9B}
