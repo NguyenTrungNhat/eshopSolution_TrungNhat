@@ -1,4 +1,5 @@
 ﻿using eshopSolution.WepApp.Models;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using System;
@@ -9,6 +10,7 @@ using System.Threading.Tasks;
 
 namespace eshopSolution.WepApp.Controllers
 {
+    [Authorize]
     public class HomeController : Controller
     {
         private readonly ILogger<HomeController> _logger;
@@ -20,6 +22,7 @@ namespace eshopSolution.WepApp.Controllers
 
         public IActionResult Index()
         {
+            var user = User.Identity.Name;
             return View();
         }
 

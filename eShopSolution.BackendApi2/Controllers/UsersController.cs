@@ -32,7 +32,7 @@ namespace eShopSolution.BackendApi2.Controllers
             {
                 return BadRequest("Username or Password is in correct.");
             }
-            return Ok(new { token = resultToken });
+            return Ok(resultToken );
         }
 
         [HttpPost("register")]
